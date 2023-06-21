@@ -4,8 +4,8 @@
 ===========================*/
 :root {
   --font-family: "Roboto", sans-serif;
-  --primary: #155bd5;
-  --primary-dark: #1c3ab6;
+  --primary:  #f36950;
+  --primary-dark: #155bd5;
   --primary-light: #e2f1ff;
   --accent: #00d4d7;
   --accent-dark: #00bac1;
@@ -1328,6 +1328,14 @@ p {
 
 
 /*===== PRICING THIRTEEN =====*/
+#pricing{
+  background-image: url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .pricing-fourteen {
   padding: 100px 0;
   background-color: var(--light-3);
